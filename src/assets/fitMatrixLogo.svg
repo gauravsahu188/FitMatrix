@@ -1,0 +1,90 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="core-gradient" x1="100" y1="70" x2="100" y2="130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5F6D" />
+      <stop offset="1" stop-color="#FFC371" />
+    </linearGradient>
+    
+    <linearGradient id="matrix-gradient" x1="50" y1="50" x2="150" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C9FF" />
+      <stop offset="1" stop-color="#92FE9D" />
+    </linearGradient>
+
+    <style>
+      /* Keyframes for animations */
+      @keyframes pulse-core {
+        0%, 100% { transform: scale(1); opacity: 0.9; }
+        50% { transform: scale(1.1); opacity: 1; }
+      }
+
+      @keyframes draw-lines {
+        to { stroke-dashoffset: 0; }
+      }
+
+      @keyframes fade-in-nodes {
+        from { opacity: 0; transform: scale(0); }
+        to { opacity: 1; transform: scale(1); }
+      }
+
+      /* Applying animations */
+      #fit-core {
+        transform-origin: center;
+        animation: pulse-core 3s ease-in-out infinite;
+      }
+
+      .matrix-line {
+        stroke: url(#matrix-gradient);
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-dasharray: 100;
+        stroke-dashoffset: 100;
+        animation: draw-lines 2s ease-out forwards;
+      }
+      
+      /* Staggering the line drawings */
+      #line-1 { animation-delay: 0.2s; }
+      #line-2 { animation-delay: 0.4s; }
+      #line-3 { animation-delay: 0.6s; }
+      #line-4 { animation-delay: 0.8s; }
+      #line-5 { animation-delay: 1.0s; }
+
+      .matrix-node {
+        fill: url(#matrix-gradient);
+        transform-origin: center;
+        opacity: 0;
+        animation: fade-in-nodes 0.5s ease-out forwards;
+      }
+
+      /* Staggering the nodes to appear with lines */
+      #node-1 { animation-delay: 0.2s; }
+      #node-2 { animation-delay: 0.4s; }
+      #node-3 { animation-delay: 0.6s; }
+      #node-4 { animation-delay: 0.8s; }
+      #node-5 { animation-delay: 1.0s; }
+      #node-6 { animation-delay: 1.2s; }
+    </style>
+  </defs>
+
+  <g id="matrix-network">
+    <path id="line-1" class="matrix-line" d="M50 60 L100 30" />
+    <path id="line-2" class="matrix-line" d="M100 30 L150 60" />
+    <path id="line-3" class="matrix-line" d="M150 60 L170 110" />
+    <path id="line-4" class="matrix-line" d="M170 110 L100 170" />
+    <path id="line-5" class="matrix-line" d="M100 170 L30 110" />
+    <path id="line-6" class="matrix-line" d="M30 110 L50 60" />
+    
+    <path id="line-mid-1" class="matrix-line" d="M100 30 L100 70" animation-delay="1.5s"/>
+    <path id="line-mid-2" class="matrix-line" d="M100 170 L100 130" animation-delay="1.5s" />
+
+    <circle id="node-1" class="matrix-node" cx="50" cy="60" r="4" />
+    <circle id="node-2" class="matrix-node" cx="100" cy="30" r="4" />
+    <circle id="node-3" class="matrix-node" cx="150" cy="60" r="4" />
+    <circle id="node-4" class="matrix-node" cx="170" cy="110" r="4" />
+    <circle id="node-5" class="matrix-node" cx="100" cy="170" r="4" />
+    <circle id="node-6" class="matrix-node" cx="30" cy="110" r="4" />
+  </g>
+
+  <g id="fit-core">
+    <path d="M100 70 L125 100 L100 130 L75 100 Z" fill="url(#core-gradient)" stroke="white" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Fitness App Profile</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#39FF14",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#121212",
+                        "card-dark": "#1E1E1E",
+                        "text-primary-dark": "#EAEAEA",
+                        "text-secondary-dark": "#A0A0A0"
+                    },
+                    fontFamily: {
+                        "display": ["Poppins", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "0.75rem",
+                        "xl": "1rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+          min-height: max(884px, 100dvh);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-dark font-display text-text-primary-dark">
+<div class="relative flex min-h-screen w-full flex-col pb-24">
+<div class="flex items-center justify-between p-4 pt-8">
+<h1 class="text-2xl font-bold text-text-primary-dark">Profile</h1>
+<button class="flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-sm font-semibold text-background-dark">
+<span class="material-symbols-outlined text-lg">edit</span>
+            Edit
+        </button>
+</div>
+<div class="flex flex-col items-center gap-4 p-4">
+<div class="relative">
+<img alt="User profile picture" class="h-24 w-24 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPp7E9FLX3J695OrEfwkTHR0zs8Ih-DZ331UIh0VPQAgU48WNeYhS-IGB2llf3MftGGVjLMJ3N7EYaDp_9nSodjJhFhaGNP17c7ih_nqHb-JaiGbEAg45xJsaMkZGUNz6lHx05Et1tGIj02lldAm169vuZp_TWqkQl0wxq1YlhgNFtNzlevjg5ge9VJibQCrWTcL5Zhlzr5Uepyxj9BM6yfoT025AgiZOCZm2-8uLx3YHs6LlctVTfq7P-etwR-s_lYEWrAjLhPg9b"/>
+<span class="absolute bottom-0 right-1 block h-4 w-4 rounded-full border-2 border-background-dark bg-primary"></span>
+</div>
+<div class="text-center">
+<h2 class="text-xl font-bold">Alex Johnson</h2>
+<p class="text-sm text-text-secondary-dark">alex.j@fitmatrix.com</p>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-4 px-4">
+<div class="flex flex-col items-center rounded-xl bg-card-dark p-4">
+<p class="text-lg font-bold">185cm</p>
+<p class="text-xs text-text-secondary-dark">Height</p>
+</div>
+<div class="flex flex-col items-center rounded-xl bg-card-dark p-4">
+<p class="text-lg font-bold">82kg</p>
+<p class="text-xs text-text-secondary-dark">Weight</p>
+</div>
+<div class="flex flex-col items-center rounded-xl bg-card-dark p-4">
+<p class="text-lg font-bold">28yr</p>
+<p class="text-xs text-text-secondary-dark">Age</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-4">
+<div class="rounded-xl bg-card-dark p-4">
+<h3 class="mb-3 font-semibold">Fitness Goals</h3>
+<div class="flex flex-col gap-3">
+<a class="flex items-center justify-between text-text-primary-dark" href="#">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined rounded-full bg-primary/20 p-2 text-primary">local_fire_department</span>
+<span>Daily Calorie Target</span>
+</div>
+<span class="material-symbols-outlined text-text-secondary-dark">chevron_right</span>
+</a>
+<a class="flex items-center justify-between text-text-primary-dark" href="#">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined rounded-full bg-primary/20 p-2 text-primary">fitness_center</span>
+<span>Workout Frequency</span>
+</div>
+<span class="material-symbols-outlined text-text-secondary-dark">chevron_right</span>
+</a>
+</div>
+</div>
+<div class="rounded-xl bg-card-dark p-4">
+<h3 class="mb-3 font-semibold">Subscription</h3>
+<div class="flex flex-col gap-3">
+<a class="flex items-center justify-between text-text-primary-dark" href="#">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined rounded-full bg-primary/20 p-2 text-primary">workspace_premium</span>
+<span>Premium Plan</span>
+</div>
+<span class="material-symbols-outlined text-text-secondary-dark">chevron_right</span>
+</a>
+</div>
+</div>
+<div class="rounded-xl bg-card-dark p-4">
+<h3 class="mb-3 font-semibold">Settings</h3>
+<div class="flex flex-col gap-3">
+<a class="flex items-center justify-between text-text-primary-dark" href="#">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined rounded-full bg-primary/20 p-2 text-primary">notifications</span>
+<span>Notifications</span>
+</div>
+<span class="material-symbols-outlined text-text-secondary-dark">chevron_right</span>
+</a>
+<a class="flex items-center justify-between text-red-500" href="#">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined rounded-full bg-red-500/20 p-2">logout</span>
+<span>Logout</span>
+</div>
+</a>
+</div>
+</div>
+</div>
+<nav class="fixed bottom-0 left-0 z-10 w-full border-t border-card-dark bg-background-dark/80 backdrop-blur-sm">
+<div class="mx-auto grid h-16 max-w-lg grid-cols-4 px-5 font-medium">
+<a class="inline-flex flex-col items-center justify-center px-5 text-text-secondary-dark hover:text-white" href="#">
+<span class="material-symbols-outlined mb-1 text-2xl">dashboard</span>
+<span class="text-xs">Dashboard</span>
+</a>
+<a class="inline-flex flex-col items-center justify-center px-5 text-text-secondary-dark hover:text-white" href="#">
+<span class="material-symbols-outlined mb-1 text-2xl">fitness_center</span>
+<span class="text-xs">Workout</span>
+</a>
+<a class="inline-flex flex-col items-center justify-center px-5 text-text-secondary-dark hover:text-white" href="#">
+<span class="material-symbols-outlined mb-1 text-2xl">restaurant</span>
+<span class="text-xs">DietPlan</span>
+</a>
+<a class="inline-flex flex-col items-center justify-center px-5 text-primary" href="#">
+<span class="material-symbols-outlined mb-1 text-2xl" style="font-variation-settings: 'FILL' 1;">person</span>
+<span class="text-xs">Profile</span>
+</a>
+</div>
+</nav>
+</div>
+
+</body></html>

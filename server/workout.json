@@ -1,0 +1,335 @@
+[
+    {
+        "title": "Beginner Push Foundation",
+        "description": "Introduction to pushing movements focusing on machine stability and dumbbell basics to build form.",
+        "level": "Beginner",
+        "duration": 45,
+        "caloriesBurned": 300,
+        "exercises": [
+            {
+                "name": "Machine Chest Press",
+                "sets": 3,
+                "reps": "10-12",
+                "duration": 1,
+                "calories": 70
+            },
+            {
+                "name": "Seated Dumbbell Shoulder Press",
+                "sets": 3,
+                "reps": "10-12",
+                "duration": 10,
+                "calories": 60
+            },
+            {
+                "name": "Machine Fly (Pec Deck)",
+                "sets": 2,
+                "reps": "12-15",
+                "duration": 8,
+                "calories": 50
+            },
+            {
+                "name": "Cable Tricep Pushdowns",
+                "sets": 3,
+                "reps": "12-15",
+                "duration": 8,
+                "calories": 40
+            }
+        ]
+    },
+    {
+        "title": "Beginner Pull Foundation",
+        "description": "Basic pulling patterns to strengthen the back and biceps using controlled movements.",
+        "level": "Beginner",
+        "duration": 45,
+        "caloriesBurned": 300,
+        "exercises": [
+            {
+                "name": "Lat Pulldowns",
+                "sets": 3,
+                "reps": "10-12",
+                "duration": 10,
+                "calories": 70
+            },
+            {
+                "name": "Seated Cable Row",
+                "sets": 3,
+                "reps": "10-12",
+                "duration": 10,
+                "calories": 70
+            },
+            {
+                "name": "Dumbbell Bicep Curls",
+                "sets": 3,
+                "reps": "12",
+                "duration": 8,
+                "calories": 50
+            },
+            {
+                "name": "Face Pulls",
+                "sets": 3,
+                "reps": "15",
+                "duration": 8,
+                "calories": 40
+            }
+        ]
+    },
+    {
+        "title": "Beginner Legs Foundation",
+        "description": "Fundamental lower body movements focusing on squat patterns and knee stability.",
+        "level": "Beginner",
+        "duration": 45,
+        "caloriesBurned": 350,
+        "exercises": [
+            {
+                "name": "Goblet Squats (Dumbbell)",
+                "sets": 3,
+                "reps": "10-12",
+                "duration": 12,
+                "calories": 90
+            },
+            {
+                "name": "Leg Press Machine",
+                "sets": 3,
+                "reps": "10-12",
+                "duration": 10,
+                "calories": 80
+            },
+            {
+                "name": "Lying Leg Curls",
+                "sets": 3,
+                "reps": "12-15",
+                "duration": 8,
+                "calories": 60
+            },
+            {
+                "name": "Standing Calf Raises",
+                "sets": 3,
+                "reps": "15",
+                "duration": 8,
+                "calories": 40
+            }
+        ]
+    },
+    {
+        "title": "Intermediate Push Hypertrophy",
+        "description": "Compound barbell movements mixed with isolation work for muscle growth.",
+        "level": "Intermediate",
+        "duration": 60,
+        "caloriesBurned": 450,
+        "exercises": [
+            {
+                "name": "Barbell Bench Press",
+                "sets": 4,
+                "reps": "8-10",
+                "duration": 15,
+                "calories": 120
+            },
+            {
+                "name": "Incline Dumbbell Press",
+                "sets": 3,
+                "reps": "10-12",
+                "duration": 10,
+                "calories": 90
+            },
+            {
+                "name": "Dumbbell Lateral Raises",
+                "sets": 4,
+                "reps": "15",
+                "duration": 10,
+                "calories": 60
+            },
+            {
+                "name": "Overhead Tricep Extension",
+                "sets": 3,
+                "reps": "12",
+                "duration": 8,
+                "calories": 50
+            }
+        ]
+    },
+    {
+        "title": "Intermediate Pull Hypertrophy",
+        "description": "Focus on vertical and horizontal pulling strength with increased volume.",
+        "level": "Intermediate",
+        "duration": 60,
+        "caloriesBurned": 450,
+        "exercises": [
+            {
+                "name": "Pull-Ups (Assisted or Bodyweight)",
+                "sets": 3,
+                "reps": "Failure or 8-10",
+                "duration": 12,
+                "calories": 100
+            },
+            {
+                "name": "Barbell Bent Over Row",
+                "sets": 3,
+                "reps": "8-10",
+                "duration": 12,
+                "calories": 110
+            },
+            {
+                "name": "Reverse Pec Deck",
+                "sets": 3,
+                "reps": "15",
+                "duration": 8,
+                "calories": 50
+            },
+            {
+                "name": "EZ Bar Bicep Curls",
+                "sets": 3,
+                "reps": "10-12",
+                "duration": 8,
+                "calories": 60
+            }
+        ]
+    },
+    {
+        "title": "Intermediate Legs Development",
+        "description": "Heavier loading on the spine and introduction to hip hinge movements.",
+        "level": "Intermediate",
+        "duration": 60,
+        "caloriesBurned": 500,
+        "exercises": [
+            {
+                "name": "Barbell Back Squat",
+                "sets": 4,
+                "reps": "6-8",
+                "duration": 15,
+                "calories": 150
+            },
+            {
+                "name": "Romanian Deadlift (RDL)",
+                "sets": 3,
+                "reps": "8-10",
+                "duration": 12,
+                "calories": 120
+            },
+            {
+                "name": "Leg Extensions",
+                "sets": 3,
+                "reps": "12-15",
+                "duration": 8,
+                "calories": 60
+            },
+            {
+                "name": "Seated Calf Raises",
+                "sets": 4,
+                "reps": "15-20",
+                "duration": 8,
+                "calories": 50
+            }
+        ]
+    },
+    {
+        "title": "Advanced Push Power & Detail",
+        "description": "High volume and intensity focusing on weak points and upper chest development.",
+        "level": "Advanced",
+        "duration": 75,
+        "caloriesBurned": 550,
+        "exercises": [
+            {
+                "name": "Weighted Dips",
+                "sets": 4,
+                "reps": "8-10",
+                "duration": 15,
+                "calories": 130
+            },
+            {
+                "name": "Standing Overhead Press (Barbell)",
+                "sets": 4,
+                "reps": "6-8",
+                "duration": 15,
+                "calories": 120
+            },
+            {
+                "name": "Cable Crossovers",
+                "sets": 3,
+                "reps": "15",
+                "duration": 10,
+                "calories": 70
+            },
+            {
+                "name": "Skullcrushers (EZ Bar)",
+                "sets": 4,
+                "reps": "10-12",
+                "duration": 10,
+                "calories": 80
+            }
+        ]
+    },
+    {
+        "title": "Advanced Pull Thickness & Width",
+        "description": "Complex compound movements and unilateral work to refine back detail.",
+        "level": "Advanced",
+        "duration": 75,
+        "caloriesBurned": 550,
+        "exercises": [
+            {
+                "name": "Weighted Pull-Ups",
+                "sets": 4,
+                "reps": "6-8",
+                "duration": 15,
+                "calories": 130
+            },
+            {
+                "name": "T-Bar Row",
+                "sets": 4,
+                "reps": "8-10",
+                "duration": 12,
+                "calories": 120
+            },
+            {
+                "name": "Single Arm Lat Pulldown",
+                "sets": 3,
+                "reps": "12",
+                "duration": 10,
+                "calories": 80
+            },
+            {
+                "name": "Hammer Curls",
+                "sets": 4,
+                "reps": "10-12",
+                "duration": 10,
+                "calories": 70
+            }
+        ]
+    },
+    {
+        "title": "Advanced Legs Intensity",
+        "description": "High-intensity leg session focusing on unilateral strength and posterior chain power.",
+        "level": "Advanced",
+        "duration": 80,
+        "caloriesBurned": 650,
+        "exercises": [
+            {
+                "name": "Front Squat",
+                "sets": 4,
+                "reps": "6-8",
+                "duration": 18,
+                "calories": 160
+            },
+            {
+                "name": "Bulgarian Split Squats",
+                "sets": 3,
+                "reps": "8-10",
+                "duration": 15,
+                "calories": 140
+            },
+            {
+                "name": "Barbell Hip Thrusts",
+                "sets": 4,
+                "reps": "10-12",
+                "duration": 15,
+                "calories": 130
+            },
+            {
+                "name": "Walking Lunges",
+                "sets": 3,
+                "reps": "20 steps",
+                "duration": 10,
+                "calories": 100
+            }
+        ]
+    }
+]
