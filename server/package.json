@@ -4,8 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "next start",
+  "build": "next build",
+  "dev": "next dev"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
