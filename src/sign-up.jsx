@@ -25,7 +25,7 @@ const SignUp = (props) => {
       return
     }
     try {
-      const response = await fetch('http://localhost:3000/api/auth/signup', {
+      const response = await fetch('https://fitmatrix-backend-deployment.onrender.com/api/auth/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -52,7 +52,7 @@ const SignUp = (props) => {
   const handlelogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:3000/api/auth/login', {
+      const response = await fetch('https://fitmatrix-backend-deployment.onrender.com/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
